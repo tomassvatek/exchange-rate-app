@@ -35,7 +35,7 @@ const WhisperItem = styled.div`
   color: black;
 
   &:hover {
-    background-color: #f2f2f2;
+    background-color: ${({ theme }) => theme.colors.white};
   }
 `;
 

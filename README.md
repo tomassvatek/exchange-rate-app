@@ -33,4 +33,4 @@ The app main purpose is to display the latest currency exchange rates from the [
 - Open combo box when clicking on the input
 - Better error handling (log errors to Sentry or similar)
 - Nice loading state
-- Add tests
+- Add tests (e2e)

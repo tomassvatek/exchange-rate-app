@@ -82,7 +82,10 @@ export const Label = styled.label`
 `;
 
 export const Container = styled.div`
-  padding: 2rem 4rem;
   margin: 0 auto;
   max-width: 1200px;
+
+  @media (min-width: 768px) {
+    padding: 2rem 4rem;
+  }
 `;
