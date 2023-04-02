@@ -1,6 +1,6 @@
 # Exchange Rate App
 
-The app main purpose is to display the latest currency exchange rates from the [Czech National Bank](https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt) and convert the amount from CZK to the selected currency. You can see the app live at [https://exchange-rate-app.vercel.app/](https://exchange-rate-app.vercel.app/).
+The app main purpose is to display the latest currency exchange rates from the [Czech National Bank](https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt) and convert the amount from CZK to the selected currency. You can see the app live at [https://exchange-rate-app-iota.vercel.app/](https://exchange-rate-app-iota.vercel.app/).
 
 ## How to run the project
 
