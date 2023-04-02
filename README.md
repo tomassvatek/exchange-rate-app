@@ -7,7 +7,8 @@ The app main purpose is to display the latest currency exchange rates from the [
 1. `yarn install`
 2. `yarn dev`
 3. `vercel dev` (The commmand requires Vercel CLI to be installed. You can install it with `yarn global add vercel`)
-4. The app will be available at [http://localhost:5177](http://localhost:5177)
+4. Create `.env.local` file in the root of the project and add `VITE_VERCEL_API=http://localhost:<VercelFunctionPort>/api`
+5. The app will be available at [http://localhost:5177](http://localhost:5177)
 
 ## Technologies & Libraries
 

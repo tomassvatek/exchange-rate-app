@@ -15,7 +15,7 @@ export const useExchangeRates = () =>
     async () => {
       const response = await axios({
         method: 'get',
-        url: 'http://localhost:3000/api/exchange-rates',
+        url: `${import.meta.env.VITE_VERCEL_API}/exchange-rates`,
       });
       return response.data;
     },
