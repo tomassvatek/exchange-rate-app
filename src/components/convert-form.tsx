@@ -4,6 +4,8 @@ import { Box, Flex, Input, Label } from 'styled';
 import styled from 'styled-components';
 
 import ComboBox, { ComboBoxOption } from './combo-box';
+import { Error } from './error';
+import { Loading } from './loading';
 
 const formatCurrencyLabel = (currency: ExchangeRate) =>
   `${currency.code} - ${currency.currency}`;
@@ -95,8 +97,8 @@ export const ConvertForm = () => {
     setSelectedCurrency(selectedCurrency);
   }
 
-  if (isLoading) return <div>Loading exchange rates</div>;
-  if (error) return <div>Something went wrong 😢</div>;
+  if (isLoading) return <Loading />;
+  if (error) return <Error />;
 
   return (
     <Wrapper>

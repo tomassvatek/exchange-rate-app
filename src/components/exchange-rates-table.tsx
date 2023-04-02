@@ -1,6 +1,9 @@
 import { useExchangeRates } from 'hooks/use-exchange-rates';
 import styled from 'styled-components';
 
+import { Error } from './error';
+import { Loading } from './loading';
+
 const Table = styled.table`
   border-collapse: collapse;
   width: 100%;
@@ -26,8 +29,8 @@ const Td = styled.td`
 export const ExchangeRatesTable = () => {
   const { data, isLoading, error } = useExchangeRates();
 
-  if (isLoading) return <div>Loading...</div>;
-  if (error) return <div>Something went wrong.</div>;
+  if (isLoading) return <Loading />;
+  if (error) return <Error />;
 
   return (
     <Table>
